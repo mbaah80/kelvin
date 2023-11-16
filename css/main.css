@@ -51,6 +51,11 @@
     border: 1px solid #e3e3e3;
     border-radius: 200px;
 }
+.heroContent{
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
 .heroContent h1{
     font-size: 55px;
     font-weight: normal;
@@ -329,6 +334,9 @@
     }
     .toolsHeader h3{
         font-size: 35px;
+    }
+    .heroContent{
+        width: 100%;
     }
 }
 
