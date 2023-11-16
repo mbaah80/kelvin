@@ -241,7 +241,9 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-
+.phoneNumber{
+    font-size: 16px;
+}
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 768px) {
     .roundDiv {
@@ -286,13 +288,14 @@
         padding: 20px 20px;
     }
     .header img{
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         object-fit: contain;
     }
     .logo{
-        font-size: 20px;
-        font-weight: bold;
+        height: 40px !important;
+        width: 60px !important;
+        object-fit: contain;
     }
     .footerContent{
         flex-direction: column;
@@ -337,6 +340,9 @@
     }
     .heroContent{
         width: 100%;
+    }
+    .phoneNumber{
+        font-size: 13px;
     }
 }
 
